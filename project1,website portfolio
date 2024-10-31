@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnus Roy | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul.list-unstyled li {
+            background-color: #e7e7e7;
+            padding: 8px;
+            margin: 4px 0;
+            border-radius: 5px;
+        }
+
+        /* Card Styling in Projects */
+        .card-title {
+            color: #007bff;
+        }
+
+        /* Footer */
+        footer {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Agnus Roy</h1>
+        <p>Web Developer | Software Engineer | Programmer</p>
+        <nav>
+            <a href="#about" class="text-white px-2">About</a>
+            <a href="#skills" class="text-white px-2">Skills</a>
+            <a href="#projects" class="text-white px-2">Projects</a>
+            <a href="#contact" class="text-white px-2">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2>About Me</h2>
+        <p>Date of Birth: 30/10/2003</p>
+        <p>I'm Agnus Roy, a passionate developer with a strong interest in programming and software development. I enjoy creating solutions that blend functionality with aesthetic appeal.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="list-unstyled">
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Title 1</h3>
+                        <p class="card-text">Description of the project, including technologies used.</p>
+                        <a href="https://your-project-link.com" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Project Title 2</h3>
+                        <p class="card-text">Description of the project, including technologies used.</p>
+                        <a href="https://your-project-link.com" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:agnus.roy@example.com">agnus.roy@example.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Agnus Roy. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
